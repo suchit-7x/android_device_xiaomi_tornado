@@ -460,26 +460,6 @@ vendor/lib64/libCamera_sc520trulyfrontimipiraw_Scene_Preview_ZSD.so
 vendor/lib64/libCamera_sc520trulyfrontimipiraw_Soft_Capture_light.so
 vendor/lib64/libCamera_sc520trulyfrontimipiraw_Video_1080.so
 vendor/lib64/libCamera_sc520trulyfrontimipiraw_Video_720.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_E2EHDR_Preview.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_E2EHDR_Preview.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_E2EHDR_Video.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_E2EHDR_Video.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Face_Capture.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Face_Capture.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Flash_Capture.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Flash_Capture.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_HDR_Capture.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_HDR_Capture.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_HDR_Preview.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_HDR_Preview.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_HDR_Reconfig_Preview.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_HDR_Reconfig_Preview.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_HDR_Reconfig_Video.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_HDR_Reconfig_Video.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_HDR_Video.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_HDR_Video.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_N3D_Capture.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_N3D_Capture.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_N3D_Preview.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_N3D_Preview.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_N3D_Video.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_N3D_Video.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_P1_YUV.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_P1_YUV.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Scene_Capture.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Scene_Capture.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Scene_Capture_4cell.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Scene_Capture_4cell.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Scene_Preview.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Scene_Preview.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Scene_Preview_4k.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Scene_Preview_4k.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Scene_Preview_ZSD_Flash.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Scene_Preview_ZSD_Flash.so
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Video_1080.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Video_1080
-vendor/lib64/mt6835/libCamera_mtk000mipiraw_Video_4k.so;SYMLINK=vendor/lib64/libCamera_mtk000mipiraw_Video_4k.so
 
 # Camera Configurations
 vendor/etc/camera/model_d/capture_cache
@@ -1136,16 +1116,8 @@ vendor/lib64/libksensor.so
 vendor/lib64/sensors.touch.detect.so
 
 # Touchscreen
-vendor/firmware/novatek_ts_hkc_fw.bin
-vendor/firmware/novatek_ts_hkc_mp.bin
 vendor/firmware/novatek_ts_truly_fw.bin
 vendor/firmware/novatek_ts_truly_mp.bin
-vendor/firmware/focaltech_ts_fw_BOE.bin
-vendor/firmware/novatek_ts_hkc_fw.bin:vendor_ramdisk/lib/firmware/novatek_ts_hkc_fw.bin
-vendor/firmware/novatek_ts_hkc_mp.bin:vendor_ramdisk/lib/firmware/novatek_ts_hkc_mp.bin
-vendor/firmware/novatek_ts_truly_fw.bin:vendor_ramdisk/lib/firmware/novatek_ts_truly_fw.bin
-vendor/firmware/novatek_ts_truly_mp.bin:vendor_ramdisk/lib/firmware/novatek_ts_truly_mp.bin
-vendor/firmware/focaltech_ts_fw_BOE.bin:vendor_ramdisk/lib/firmware/focaltech_ts_fw_BOE.bin
 
 # Trusted Execution Environment (TEE)
 vendor/bin/miteelog
