@@ -2,6 +2,13 @@
 ## are from OS3.0.306.0.WPOMIXM.
 ## variant: GLOBAL
 
+vendor/lib64/libjpeg-alpha-oal_vendor.so
+vendor/lib64/libjpeg-alpha_vendor.so
+vendor/lib64/libJpgEncPipe.so
+vendor/lib64/libxiaomi_mtkril.so
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.1.so
+vendor/lib64/vendor.mediatek.hardware.bluetooth.audio@2.2.so
+
 # AAL
 vendor/lib64/mt6835/libaal_cust_func.so;SYMLINK=vendor/lib64/libaal_cust_func.so
 vendor/lib64/mt6835/libaalservice.so;SYMLINK=vendor/lib64/libaalservice.so
